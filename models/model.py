@@ -7,4 +7,7 @@ class User(BaseModel):
 
 class UserLogin(BaseModel):
     email: str
-    password: str    
+    password: str   
+
+class fgPassword(BaseModel):
+    email:str
